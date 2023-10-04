@@ -55,7 +55,7 @@ function generatePassword(){
 function copy(){
     passwordBox.select();
     document.execCommand('copy');
-    document.execCommand('selectAll');
+    passwordBox.execCommand('selectAll');
 }
 function Generate(){
     generatePassword();
